@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+
+</style>
+
+
+<head>
+    <meta charset="utf-8" />
+    <title>Transport Digital Twin</title>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMahz6qIWC7d7Gi_4aWudcltnQHkFEZ6M&callback=initMap&libraries=places"
+        async defer></script>
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 style="color: #1d70b8;">
+        Multi-Modal Digital Twin for Transport</h3>
+
+    <div id="map"></div>
+
+    <script>
+        let map;
+
+        async function initMap() {
+            const { Map } = await google.maps.importLibrary("maps");
+
+            // Define the MSOA boundaries for Brixton and Oxford Circus
+            const brixtonMsoa = {
+                north: 51.465,
+                south: 51.455,
+                east: -0.125,
+                west: -0.145,
+            };
+
+            const oxfordCircusMsoa = {
+                north: 51.515,
+                south: 51.505,
+                east: -0.145,
+                west: -0.165,
+            };
+
+            // Create a map centered on London
+            map = new Map(document.getElementById("map"), {
+                center: { lat: 51.5074, lng: 0.1278 },
+                zoom: 12,
+            });
+
+            // Create polygon overlays for Brixton and Oxford Circus
+            const brixtonPolygon = new google.maps.Polygon({
+                paths: [
+                    { lat: brixtonMsoa.north, lng: brixtonMsoa.west },
+                    { lat: brixtonMsoa.north, lng: brixtonMsoa.east },
+                    { lat: brixtonMsoa.south, lng: brixtonMsoa.east },
+                    { lat: brixtonMsoa.south, lng: brixtonMsoa.west },
+                ],
+                strokeColor: "#FF0000", // Red border
+                strokeOpacity: 0.8,
+                strokeWeight: 2,
+                fillColor: "#FF0000", // Red fill
+                fillOpacity: 0.35,
+                map: map,
+            });
+
+            const oxfordCircusPolygon = new google.maps.Polygon({
+                paths: [
+                    { lat: oxfordCircusMsoa.north, lng: oxfordCircusMsoa.west },
+                    { lat: oxfordCircusMsoa.north, lng: oxfordCircusMsoa.east },
+                    { lat: oxfordCircusMsoa.south, lng: oxfordCircusMsoa.east },
+                    { lat: oxfordCircusMsoa.south, lng: oxfordCircusMsoa.west },
+                ],
+                strokeColor: "#0000FF", // Blue border
+                strokeOpacity: 0.8,
+                strokeWeight: 2,
+                fillColor: "#0000FF", // Blue fill
+                fillOpacity: 0.35,
+                map: map,
+            });
+        }
+
+        initMap();
+        initMap();
+    </script>
+</body>
+
+</html>
