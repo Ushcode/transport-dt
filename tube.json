@@ -1,0 +1,306 @@
+{
+    "currentVersion": 10.81,
+    "id": 3,
+    "name": "Lines_WGS",
+    "type": "Feature Layer",
+    "description": "",
+    "definitionExpression": "",
+    "geometryType": "esriGeometryPolyline",
+    "copyrightText": "",
+    "parentLayer": null,
+    "subLayers": [],
+    "minScale": 50000,
+    "maxScale": 0,
+    "drawingInfo": {
+        "renderer": {
+            "type": "uniqueValue",
+            "field1": "LineName",
+            "field2": null,
+            "field3": null,
+            "fieldDelimiter": ", ",
+            "defaultSymbol": null,
+            "defaultLabel": null,
+            "uniqueValueInfos": [
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            199,
+                            81,
+                            106,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "Emirates Cable Car",
+                    "label": "Emirates Cable Car",
+                    "description": ""
+                },
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            168,
+                            56,
+                            0,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "Bakerloo",
+                    "label": "Bakerloo",
+                    "description": ""
+                },
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            255,
+                            0,
+                            0,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "Central",
+                    "label": "Central",
+                    "description": ""
+                },
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            255,
+                            255,
+                            0,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "Circle",
+                    "label": "Circle",
+                    "description": ""
+                },
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            0,
+                            169,
+                            230,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "DLR",
+                    "label": "DLR",
+                    "description": ""
+                },
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            56,
+                            168,
+                            0,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "District",
+                    "label": "District",
+                    "description": ""
+                },
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            255,
+                            115,
+                            223,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "Hammersmith and City",
+                    "label": "Hammersmith and City",
+                    "description": ""
+                },
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            128,
+                            128,
+                            128,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "Jubilee",
+                    "label": "Jubilee",
+                    "description": ""
+                },
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            115,
+                            0,
+                            0,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "Metropolitan",
+                    "label": "Metropolitan",
+                    "description": ""
+                },
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            0,
+                            0,
+                            0,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "Northern",
+                    "label": "Northern",
+                    "description": ""
+                },
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            0,
+                            77,
+                            168,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "Piccadilly",
+                    "label": "Piccadilly",
+                    "description": ""
+                },
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            0,
+                            197,
+                            255,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "Victoria",
+                    "label": "Victoria",
+                    "description": ""
+                },
+                {
+                    "symbol": {
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid",
+                        "color": [
+                            0,
+                            255,
+                            197,
+                            255
+                        ],
+                        "width": 4
+                    },
+                    "value": "Waterloo and City",
+                    "label": "Waterloo and City",
+                    "description": ""
+                }
+            ]
+        },
+        "transparency": 0,
+        "labelingInfo": null
+    },
+    "defaultVisibility": true,
+    "extent": {
+        "xmin": -68042.47480000183,
+        "ymin": 6693096.047799997,
+        "xmax": 27976.49549999833,
+        "ymax": 6747028.953100003,
+        "spatialReference": {
+            "wkid": 102100,
+            "latestWkid": 3857
+        }
+    },
+    "hasAttachments": false,
+    "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+    "displayField": "LineName",
+    "typeIdField": null,
+    "fields": [
+        {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+        },
+        {
+            "name": "SHAPE",
+            "type": "esriFieldTypeGeometry",
+            "alias": "SHAPE",
+            "domain": null
+        },
+        {
+            "name": "NetworkWeight",
+            "type": "esriFieldTypeDouble",
+            "alias": "NetworkWeight",
+            "domain": null
+        },
+        {
+            "name": "Enabled",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "Enabled",
+            "domain": null
+        },
+        {
+            "name": "LineName",
+            "type": "esriFieldTypeString",
+            "alias": "LineName",
+            "length": 20,
+            "domain": null
+        },
+        {
+            "name": "IntWeight",
+            "type": "esriFieldTypeSmallInteger",
+            "alias": "IntWeight",
+            "domain": null
+        },
+        {
+            "name": "SHAPE_Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "SHAPE_Length",
+            "domain": null
+        }
+    ],
+    "relationships": [],
+    "canModifyLayer": false,
+    "canScaleSymbols": false,
+    "hasLabels": false,
+    "capabilities": "Map",
+    "maxRecordCount": 1000,
+    "supportsStatistics": true,
+    "supportsAdvancedQueries": true,
+    "supportedQueryFormats": "JSON, AMF"
+}
